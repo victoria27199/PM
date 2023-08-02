@@ -16,13 +16,14 @@ img{
     background-color: #fafafa;
     width: 460px;
     margin: auto;
-    border: 1px solid black;
-    box-shadow: 2px red;
+    /* border: 1px solid black; */
+    box-shadow: 2px 6px 8px 12px rgb(207, 230, 210);
 }
 
 
 .input{
-background-color: aqua;
+
+width: 120px;
 margin: 0 auto;
 }
 
@@ -30,11 +31,15 @@ margin: 0 auto;
     width: 100px;
 }
 form{
+    width: auto;
     margin: 0 auto;
 }
 
 
 .login{
-    background-color: red;
+    color: white;
+    background-color: black;
     text-transform: uppercase;
+    border-radius: 3px;
+    border-color: blueviolet;
 }
